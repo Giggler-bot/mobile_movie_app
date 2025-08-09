@@ -47,3 +47,4 @@ app-example
 *.log
 *.env
 *.DS_Store
+.vercel
