@@ -1,18 +1,18 @@
+import MovieCard from '@/components/MovieCard';
+import SearchBar from '@/components/SearchBar';
+import { icons } from '@/constants/icons';
+import { images } from '@/constants/images';
 import React, { useEffect, useState } from 'react';
 import {
-  View,
-  Text,
-  Image,
-  FlatList,
   ActivityIndicator,
+  FlatList,
+  Image,
+  Text,
+  View,
 } from 'react-native';
-import { images } from '@/constants/images';
-import { fetchMovies } from './services/api';
-import useFetch from './services/useFetch';
-import MovieCard from '@/components/MovieCard';
-import { icons } from '@/constants/icons';
-import SearchBar from '@/components/SearchBar';
-import { SearchCount } from './services/TrackSearches';
+import { fetchMovies } from '../../services/api';
+import { SearchCount } from '../../services/TrackSearches';
+import useFetch from '../../services/useFetch';
 
 const Search = () => {
   const [searchQuery, setSearchQuery] = useState('');
