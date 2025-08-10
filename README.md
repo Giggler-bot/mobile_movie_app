@@ -31,3 +31,8 @@ Giggler Movies lets you search, discover trending films, and get personalized mo
    ```bash
    git clone https://github.com/your-username/giggler-movies.git
    cd giggler-movies
+
+## Live Preview
+You can preview the app using Expo Go:
+
+[EAS Live Link](https://giggler-mobile-movie-app--nju5pdx2jk.expo.app)
